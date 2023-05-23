@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function Landing() {
   return (
-    <section className="sticky top-0 mx-auto flex h-screen max-w-[1350px] bg-[#000000] items-center  font-Urbanist justify-between px-8">
+    <section className="sticky top-0 mx-auto flex h-screen max-w-[1350px] bg-[#0f0f0f] items-center  font-Urbanist justify-between px-8">
       <div className="space-y-8">
         <h1 className="space-y-3 text-5xl font-semibold tracking-wide lg:text-6xl xl:text-7xl">
           <span className="block bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
@@ -16,7 +16,7 @@ function Landing() {
 
         <div className="space-x-8">
           <Button title="Buy Now" />
-          <a className="link border px-8 py-3 rounded ">Learn More</a>
+          <a className="link  ">Learn More</a>
         </div>
       </div>
 

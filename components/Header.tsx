@@ -9,7 +9,7 @@ import {
 function Header() {
   const session = false;
   return (
-    <header className="sticky text-white top-0 z-30 flex w-full font-Urbanist items-center justify-between bg-[#000000] p-3">
+    <header className="sticky text-white top-0 z-30 flex w-full border-b-[1px] border-[#000000] font-Urbanist items-center justify-between bg-[#0f0f0f] p-3">
       <div className="flex items-center justify-center md:w-1/5">
         <Link href="/">
           <div className="relative  h-8 w-10 cursor-pointer opacity-75 transition hover:opacity-100">
