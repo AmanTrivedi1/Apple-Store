@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Urbanist: ["Urbanist", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"],
       },
     },
   },
