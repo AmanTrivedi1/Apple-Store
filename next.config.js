@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  swcMinify: true,
   images: {
-    domains: ["res.cloudinary.com"],
+    domains: ["rb.gy", "cdn.sanity.io", "lh3.googleusercontent.com"],
   },
 };
 

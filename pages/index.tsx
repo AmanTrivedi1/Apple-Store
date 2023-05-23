@@ -18,8 +18,8 @@ const Home = ({ categories, products }: Props) => {
 
   const showProducts = (category: number) => {
     return products
-      .filter((product) => product.category._ref === categories[category]._id)
-      .map((product) => <Product product={product} key={product._id} />); // filter products by category
+      .filter((product) => product.category?._ref === categories[category]._id)
+      .map((product) => <Product product={product} key={product._id} />); // filters products by category
   };
 
   return (

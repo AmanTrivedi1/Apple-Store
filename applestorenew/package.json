@@ -22,6 +22,7 @@
     "@sanity/eslint-config-studio": "^2.0.1",
     "@sanity/vision": "^3.11.1",
     "eslint": "^8.6.0",
+    "next": "^13.4.4-canary.3",
     "prop-types": "^15.7",
     "react": "^17.0",
     "react-barcode": "^1.3.2",
