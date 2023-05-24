@@ -9,25 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.14",
-    "@heroicons/react": "^2.0.18",
-    "@portabletext/react": "^3.0.0",
-    "@reduxjs/toolkit": "^1.9.5",
-    "@sanity/image-url": "^1.0.2",
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "1.0.6",
+    "@portabletext/react": "^1.0.6",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@sanity/image-url": "^1.0.1",
     "@stripe/stripe-js": "^1.35.0",
-    "@types/node": "20.2.1",
-    "@types/react": "18.2.6",
-    "@types/react-dom": "18.2.4",
-    "autoprefixer": "10.4.14",
-    "currency-formatter": "^1.5.9",
-    "heroicons": "^2.0.18",
-    "next": "13.4.3",
+    "next": "latest",
     "next-auth": "^4.10.3",
-    "next-auth-sanity": "^1.4.12",
-    "next-sanity": "^4.3.2",
-    "postcss": "8.4.23",
-    "react": "18.2.0",
-    "react-currency-format": "^1.1.0",
+    "next-auth-sanity": "^1.4.4",
+    "next-sanity": "^0.8.2",
+    "react": "18.1.0",
     "react-currency-formatter": "^1.1.0",
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.1",
@@ -40,7 +32,15 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@types/node": "17.0.35",
+    "@types/react": "18.0.9",
     "@types/react-currency-formatter": "^1.1.4",
-    "@types/uuid": "^9.0.1"
+    "@types/react-dom": "18.0.5",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.1.2",
+    "typescript": "4.7.2"
   }
 }
