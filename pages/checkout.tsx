@@ -99,7 +99,7 @@ function Checkout() {
                     <p>Subtotal</p>
                     <p>
                       {/* <Currency quantity={basketTotal} currency="USD" /> */}
-                      <h1>{basketTotal}$</h1>
+                      <h1>{basketTotal} ₹</h1>
                     </p>
                   </div>
                   <div className="flex justify-between">
@@ -113,7 +113,7 @@ function Checkout() {
                         Enter zip code
                       </p>
                     </div>
-                    <p>$ -</p>
+                    <p>₹ -</p>
                   </div>
                 </div>
 
@@ -121,7 +121,7 @@ function Checkout() {
                   <h4>Total</h4>
                   <h4>
                     {/* <Currency quantity={basketTotal} currency="USD" /> */}
-                    <h1>{basketTotal}$</h1>
+                    <h1>{basketTotal} ₹</h1>
                   </h4>
                 </div>
               </div>
@@ -136,12 +136,12 @@ function Checkout() {
                       <span>Pay Monthly</span>
                       <span>with Apple Card</span>
                       <span>
-                        $283.16/mo. at 0% APR<sup className="-top-1">◊</sup>
+                        ₹283.16/mo. at 0% APR<sup className="-top-1">◊</sup>
                       </span>
                     </h4>
                     <Button title=" Monthly Installments" />
                     <p className="mt-2 max-w-[240px] text-[13px]">
-                      $0.00 due today, which includes applicable full-price
+                      ₹0.00 due today, which includes applicable full-price
                       items, down payments, shipping, and taxes.
                     </p>
                   </div>
@@ -151,7 +151,7 @@ function Checkout() {
                       Pay in full
                       <span>
                         {/* <Currency quantity={basketTotal} currency="USD" /> */}
-                        <h1>{basketTotal}$</h1>
+                        <h1>{basketTotal} ₹</h1>
                       </span>
                     </h4>
 

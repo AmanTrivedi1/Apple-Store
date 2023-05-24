@@ -138,7 +138,7 @@ function Success({ products }: Props) {
 
                 <p className="text-xl font-medium text-white">
                   {/* <Currency quantity={subtotal + 20} /> */}
-                  <h1>{subtotal + 20} $</h1>
+                  <h1>{subtotal + 20} ₹</h1>
                 </p>
               </div>
             </div>
@@ -169,7 +169,7 @@ function Success({ products }: Props) {
                           quantity={product.price.unit_amount / 100}
                           currency={product.currency}
                         /> */}
-                        <p>{product.price.unit_amount / 100} $</p>
+                        <p>{product.price.unit_amount / 100} ₹</p>
                       </p>
                     </div>
                   ))}
@@ -179,7 +179,7 @@ function Success({ products }: Props) {
                     <p className="text-[gray]">Subtotal</p>
                     <p className="font-medium">
                       {/* <Currency quantity={subtotal} /> */}
-                      <h1>{subtotal} $</h1>
+                      <h1>{subtotal} ₹</h1>
                     </p>
                   </div>
                   <div className="flex justify-between text-sm">
@@ -190,7 +190,7 @@ function Success({ products }: Props) {
                     <p className="text-[gray]">Shipping</p>
                     <p className="font-medium">
                       {/* <Currency quantity={20} currency="USD" /> */}
-                      <h1>{20} $</h1>
+                      <h1>{20} ₹</h1>
                     </p>
                   </div>
                 </div>
@@ -200,7 +200,7 @@ function Success({ products }: Props) {
                     USD
                     <span className="text-xl font-medium text-white">
                       {/* <Currency quantity={subtotal + 20} /> */}
-                      <h1>{subtotal + 20} $</h1>
+                      <h1>{subtotal + 100} ₹</h1>
                     </span>
                   </p>
                 </div>
