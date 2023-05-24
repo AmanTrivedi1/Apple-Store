@@ -16,7 +16,7 @@ export default async function handler(
     // This is the shape in which stripe expects the data to be
     const transformedItems = items.map((item) => ({
       price_data: {
-        currency: "usd",
+        currency: "INR",
         product_data: {
           name: item.title,
           images: [urlFor(item.image[0]).url()],
