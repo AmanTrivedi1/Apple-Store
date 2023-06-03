@@ -1,5 +1,5 @@
 <div align="center">
-      <h1> <img src="123" width="80px"><br/>Apple Store</h1>
+      <h1> <img src="https://res.cloudinary.com/dmlts9lbk/image/upload/v1683381807/apple_logo-removebg-preview_gonsny.png" width="80px"><br/>Apple Store</h1>
      </div>
 
 
